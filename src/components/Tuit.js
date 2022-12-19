@@ -9,10 +9,10 @@ function Tuit({datos}) {
         </div>
         <div className=' mt-1 w-full space-y-4'>
             <div>
-            <p className='text-sm'><b>{datos.nombre}</b> {datos.user}</p>
+            <p className='text-sm'><b>{datos.nombre}</b> <span className='text-light text-gray-500'>{datos.user} ° 2h</span></p>
             <p>{datos.tuit}</p>
             </div>
-            <div className=' text-gray-700 space-x-4 flex flex-row justify-between w-3/4'>
+            <div className=' text-gray-500 space-x-4 flex flex-row justify-between w-3/4'>
                 <ChatBubbleLeftIcon className='w-4 h-4 cursor-pointer' />
                 <ArrowPathRoundedSquareIcon className='w-4 h-4 cursor-pointer' />
                 <HeartIcon className='w-4 h-4 cursor-pointer' />

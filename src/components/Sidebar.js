@@ -6,7 +6,7 @@ import UserOptions from './UserOptions'
 function Sidebar() {
   return (
     <div className='sticky top-0  col-span-2 pt-1 ml-3 justify-between flex flex-col h-screen'>
-      <div className=' space-y-2  '>
+      <div className=' space-y-3  '>
         <div className='p-2 ml-1 hover:bg-sky-100 rounded-full  w-fit'>
         <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
         className='w-7 h-7' />
@@ -19,7 +19,7 @@ function Sidebar() {
         <SidebarRow Icon={ClipboardDocumentIcon} Title="Listas" />
         <SidebarRow Icon={UserIcon} Title="Perfil" />
         <SidebarRow Icon={EllipsisHorizontalCircleIcon} Title="Mas opciones" />
-        <button className='text-center   bg-sky-500 rounded-full text-white py-3 font-medium text-md  w-5/6'> Twittear </button>
+        <button className='text-center   bg-sky-500 hover:bg-sky-600 rounded-full text-white py-3 font-medium text-lg  w-5/6'> Twittear </button>
         
       </div>
       <div className=' pb-5'>
