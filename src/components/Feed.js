@@ -11,15 +11,17 @@ function Feed() {
         tuit: "Esto es un tuit",
     },
     
+    
     ]
   return (
-    <div className=' col-span-4 border border-x-gray-200/75  '>
+    <div className=' col-span-8 md:col-span-7 lg:col-span-5 xl:col-span-4 border border-x-gray-200/75  '>
         <Header />
 
         <TuitForm />
         <div className='mt-2'> 
             {tuits.map((tuit)=>(
                 <Tuit datos={tuit} />
+                
             ))}
         </div>
     </div>

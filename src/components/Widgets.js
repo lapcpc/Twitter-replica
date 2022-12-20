@@ -3,7 +3,7 @@ import React from 'react'
 
 function Widgets() {
   return (
-    <div className='col-span-3 w-[86%] ml-12 mt-2 space-y-4'>
+    <div className='col-span-3 hidden lg:inline w-[86%] ml-12 mt-2 space-y-4'>
         {/* Barra de busqueda */}
         <div className='bg-gray-100 flex flex-row rounded-full px-4 py-2  space-x-2'>
             <MagnifyingGlassIcon 

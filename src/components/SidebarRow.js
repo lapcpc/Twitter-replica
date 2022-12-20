@@ -2,9 +2,9 @@ import React from 'react'
 
 function SidebarRow({Icon, Title}) {
   return (
-    <div className=' max-w-fit space-x-4 flex cursor-pointer hover:bg-gray-200 p-2 px-3 pr-6 rounded-full'>
+    <div className=' max-w-fit space-x-4 flex cursor-pointer hover:bg-gray-200 pt-2 xl:px-3 xl:pr-6 rounded-full'>
       <Icon className=' w-7 h-7' />
-      <p className='hidden lg:inline text-xl  '>{Title}</p> 
+      <p className='hidden xl:inline text-xl  '>{Title}</p> 
         
     </div>
   )
