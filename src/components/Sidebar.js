@@ -5,8 +5,8 @@ import UserOptions from './UserOptions'
 
 function Sidebar() {
   return (
-    <div className='sticky top-0 col-span-1 xl:col-span-2  pt-1 lg:ml-3 justify-between flex flex-col h-screen'>
-      <div className=' space-y-3  '>
+    <div className='sticky top-0 col-span-1 xl:col-span-2 mr-6  pt-1  justify-between flex flex-col h-screen items-end'>
+      <div className=' space-y-4  '>
         <div className='p-2 xl:ml-1 hover:bg-sky-100 rounded-full  w-fit'>
         <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
         className='w-7 h-7' />
@@ -19,11 +19,11 @@ function Sidebar() {
         <SidebarRow Icon={ClipboardDocumentIcon} Title="Listas" />
         <SidebarRow Icon={UserIcon} Title="Perfil" />
         <SidebarRow Icon={EllipsisHorizontalCircleIcon} Title="Mas opciones" />
-        <button className='text-center    bg-sky-500 hover:bg-sky-600 rounded-full text-white p-1 px-3 xl:py-3 font-medium text-lg w-fit xl:w-5/6'> <p className='hidden xl:inline'>Twittear</p> <p className='inline xl:hidden p-0'>+</p> </button>
+        <button className='text-center    bg-sky-500 hover:bg-sky-600 rounded-full text-white p-1 px-3 xl:py-3 font-medium text-lg w-fit xl:w-full'> <p className='hidden xl:inline'>Twittear</p> <p className='inline xl:hidden p-0'>+</p> </button>
         
       </div>
-      <div className=' pb-5'>
-      <UserOptions />
+      <div className=' pb-5 '>
+        <UserOptions />
       </div>
     </div>
   )
